@@ -1,15 +1,15 @@
 var app = require('ampersand-app');
 var Router = require('ampersand-router');
-var PublicPage = require('./pages/public.js');
+var HomePage = require('./pages/home.js');
 
 module.exports = Router.extend({
 
   routes: {
-    '': 'public'
+    '': 'home'
   },
 
-  public: function() {
-    app.trigger('page', new PublicPage());
+  home: function() {
+    app.trigger('page', new HomePage());
   }
 
 });
