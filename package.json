@@ -1,0 +1,35 @@
+{
+  "name": "projective-detective",
+  "version": "0.0.0",
+  "description": "Projective Detective",
+  "main": "index.js",
+  "scripts": {
+    "build": "NODE_ENV=production webpack --colors --progress",
+    "serve": "webpack-dev-server --colors --progress",
+    "test": "eslint app/**"
+  },
+  "author": "Matthew Basanta <matthew@basantamail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "ampersand-app": "^1.0.4",
+    "ampersand-collection": "^1.5.0",
+    "ampersand-model": "^6.0.2",
+    "ampersand-router": "^3.0.2",
+    "ampersand-state": "^4.6.0",
+    "ampersand-view": "^9.0.0",
+    "ampersand-view-switcher": "^2.0.0",
+    "css-loader": "^0.21.0",
+    "domready": "^1.0.8",
+    "hjs-webpack": "^3.1.0",
+    "jade": "^1.11.0",
+    "jade-loader": "^0.7.1",
+    "local-links": "^1.4.0",
+    "lodash": "^3.10.1",
+    "postcss-loader": "^0.7.0",
+    "style-loader": "^0.13.0",
+    "stylus-loader": "^1.4.0",
+    "webpack": "^1.12.2",
+    "webpack-dev-server": "^1.12.1",
+    "yeticss": "^7.0.5"
+  }
+}
