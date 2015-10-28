@@ -9,6 +9,7 @@
     "test": "eslint app/**"
   },
   "author": "Matthew Basanta <matthew@basantamail.com>",
+  "repository": "https://github.com/mbasanta/projective-detective-website",
   "license": "ISC",
   "dependencies": {
     "ampersand-app": "^1.0.4",
