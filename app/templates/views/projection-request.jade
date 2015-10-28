@@ -1,0 +1,26 @@
+div
+  form(data-hook='projection-request-form')
+    fieldset
+      legend Find Projection
+      div.form-element
+        label(for='unknownX') Unknown X
+        input#unknownX.form-input(data-hook='unknownX' type='text', placeholder='Unknown X')
+      div.form-element
+        label(for='unknownY') Unknown Y
+        input#unknownY.form-input(data-hook='unknownY' type='text', placeholder='Unknown Y')
+      div.form-element
+        label(for='knownLat') Known Lat
+        input#knownLat.form-input(data-hook='knownLat' type='text', placeholder='Known Lat')
+      div.form-element
+        label(for='unknownLng') Known Lng
+        input#knownLng.form-input(data-hook='knownLng' type='text', placeholder='Known Lng')
+      div.form-element
+        label(for='numOfMatches') Number of Matches
+        select#numOfMatches.form-input(data-hook='numOfMatches')
+          option 5
+          option 10
+          option 15
+          option 20
+          option 25
+      button.button.button-primary(type='submit') Submit
+
